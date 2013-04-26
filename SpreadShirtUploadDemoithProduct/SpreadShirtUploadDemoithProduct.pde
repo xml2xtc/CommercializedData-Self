@@ -89,6 +89,9 @@ void setup() {
 //      exc.printStackTrace();
 //    }
 //  }
+
+
+//---------------PROBLEM IS IN HERE-----------
          // create product data using xml
          HttpCallCommand createProductCommand =
                  commandFactory.createPlainHttpCallCommand(CREATION_URL, HttpMethod.POST, null);
@@ -99,6 +102,7 @@ void setup() {
          createProductCommand.setInput(productData);
          println("productData!" + productData);
          createProductCommand.setApiKeyProtected(true);
+         //--could happen after excute? 
          createProductCommand.execute();
          if (createProductCommand.getStatus() >= 400) {
              throw new Exception("Could not create product xml!");
@@ -109,7 +113,7 @@ void setup() {
       exc.printStackTrace();
     } 
   }
-
+//------problem could be in here 2-------
         private static String getXMLData(String fileName)
         
               throws IOException {
