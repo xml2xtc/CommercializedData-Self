@@ -1,5 +1,4 @@
 
-
 //import net.sprd.tutorials.common.http.HttpCallCommand;
 //import net.sprd.tutorials.common.http.HttpCallCommandFactory;
 //import net.sprd.tutorials.common.http.HttpMethod;
@@ -17,12 +16,8 @@ import java.net.HttpURLConnection;
 
 private static final Logger log = LoggerFactory.getLogger(PApplet.class);
 
-public static final String API_KEY = "4bc0b0a1-6586-443c-b69b-f0d598924a6d";
-public static final String SECRET = "16e5f296-f7b5-4a66-916f-c18a14324d1a";
-
-//public static final String API_KEY = "4bc0b0a16586443cb69bf0d598924a6d";
-//public static final String SECRET = "16e5f296f7b54a66916fc18a14324d1a";
-
+public static final String API_KEY = "...";
+public static final String SECRET = "...";
 
 public String UPLOAD_URL = null;
 public String UPLOAD_XML = null;
