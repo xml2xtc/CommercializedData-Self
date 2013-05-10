@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<product xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://api.spreadshirt.net">
+<productType id="109"/>
+<appearance id="403"/>
+<restrictions>
+<freeColorSelection>false</freeColorSelection>
+<example>false</example>
+</restrictions>
+<configurations>
+<configuration type="design">
+<printArea id="174"/>
+<printType id="17"/>
+<offset unit="mm">
+<x>60.0</x>
+<y>70.0</y>
+</offset>
+<content dpi="25.4" unit="mm">
+<svg>
+<image transform="" width="200.025" height="194.945" printColorIds="1" designId="THE_DESIGN_ID"/>
+</svg>
+</content>
+<restrictions>
+<changeable>false</changeable>
+</restrictions>
+</configuration>
+</configurations>
+</product>
