@@ -34,7 +34,7 @@ void setup ()
   size(1280, 720);
   background(0);
 
-  textManager = new TextManager(this);
+  textManager = new TextManager2(this);
   textManager.setup();
 
   videoManager = new VideoManager(this);

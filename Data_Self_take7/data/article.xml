@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<article xmlns:xlink="http://www.w3.org/1999/xlink"                      
+         xmlns="http://api.spreadshirt.net" 
+         weight="-379425.0" 
+         xlink:href="http://api.spreadshirt.net/api/v1/shops/205909/articles/8306211" id="8306211">
+        <name> THE_NAME </name>
+        <description>Start a band </description>
+        <price>
+            <vatExcluded>22.90</vatExcluded>
+            <vatIncluded>22.90</vatIncluded>
+            <vat>0</vat>
+            <currency xlink:href="http://api.spreadshirt.net/api/v1/currencies/1" id="1"/>
+        </price>
+        <shop xlink:href="http://api.spreadshirt.net/api/v1/shops/205909" id="205909"/>
+        <product xlink:href="http://api.spreadshirt.net/api/v1/shops/205909/products/9531579" id="9531579">
+            <productType xlink:href="http:///api.spreadshirt.net/v1/shops/205909/productTypes/538" id="538"/>
+            <appearance id="4"/>
+            <restrictions>
+                <freeColorSelection>false</freeColorSelection>
+                <example>false</example>
+            </restrictions>
+        </product>
+        <articleCategories>
+            <articleCategory id="1000029"/>
+        </articleCategories>
+        <resources>
+            <resource xlink:href="http://image.spreadshirt.net/image-server/v1/products/9531579/views/1,width=42,height=42" type="preview" mediaType="png"/>
+            <resource xlink:href="http://image.spreadshirt.net/image-server/v1/products/9531579/views/1" type="product" mediaType="png"/>
+            <resource xlink:href="http://image.spreadshirt.net/image-server/v1/compositions/9531579/views/1" type="composition" mediaType="png"/>
+        </resources>
+        <created>2010-06-07T19:15:11Z</created>
+        <modified>2010-07-30T15:17:15Z</modified>
+</article>
