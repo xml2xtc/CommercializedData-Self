@@ -251,10 +251,10 @@ void SpreadShirtUpload(int lastImageNumber, int fileWidth) {
     HttpCallCommand createArticleCommand =
       commandFactory.createPlainHttpCallCommand(CREATION_URL, HttpMethod.POST, null);
     println("DESIGNID" + uploadUrl.substring(uploadUrl.lastIndexOf('/')+1));
-    String productData = getXMLData(PRODUCT_XML);
+    String articleData = getXMLData(ARTICLE_XML);
 
     // use id from fetched design xml here -> my solution is only a hack
-    productData = productData.replace("THE_DESIGN_ID", "u" + uploadUrl.substring(uploadUrl.lastIndexOf('/') + 1));
+    productData = productData.replace("THE_PRODUCT_ID", "u" + uploadUrl.substring(uploadUrl.lastIndexOf('/') + 1));
     createProductCommand.setInput(productData);
     createProductCommand.setApiKeyProtected(true);
     println("productdataVARIABLE HERE" + productData);
@@ -272,7 +272,6 @@ void SpreadShirtUpload(int lastImageNumber, int fileWidth) {
     exc.printStackTrace();
   }
 }
-//------problem could be in here 2-------
 private static String getXMLData(String fileName)
 
 throws IOException {

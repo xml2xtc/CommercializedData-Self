@@ -26,7 +26,7 @@ public String PRODUCT_XML = null;
 
 
 VideoManager videoManager;
-TextManager textManager;
+TextManager2 textManager;
 
 
 void setup ()
